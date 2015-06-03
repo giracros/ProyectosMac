@@ -3,6 +3,18 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "Proyecto">
+   </Group>
+   <Group
+      location = "container:"
+      name = "Ejemplos">
+   </Group>
+   <Group
+      location = "container:"
+      name = "Practica">
+   </Group>
+   <Group
+      location = "container:"
       name = "Tutorial">
       <FileRef
          location = "group:Swift II/Swift II.xcodeproj">

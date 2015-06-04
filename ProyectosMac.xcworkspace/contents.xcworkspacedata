@@ -22,5 +22,8 @@
       <FileRef
          location = "group:Swift I/Swift I.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:HolaMundo/HolaMundo.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>

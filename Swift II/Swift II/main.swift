@@ -19,23 +19,7 @@ numeroEntero = 5
 //Operaciones
 numeroEntero = numeroEntero + CONSTANTE
 //Condicionales
-
-if numeroEntero < 12{
-
-    println("Hola Mundo blablablablablabl")
-
-}
-
-else
-
-{
-
-
-    println("Chao")
-}
-
-
-
+if numeroEntero < 12{println("Hola Mundo")}else{println("Chao")}
 //Resultado se puede mostrar de dos maneras distintas, la diferencia es el numero de caracteres que usan 
 // Primera forma
 println("Numero Constante: " + CONSTANTE.description)

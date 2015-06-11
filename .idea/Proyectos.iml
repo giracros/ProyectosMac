@@ -4,6 +4,12 @@
     <content url="file://$MODULE_DIR$/.idea">
       <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/HolaMundo">
+      <sourceFolder url="file://$MODULE_DIR$/HolaMundo" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/LeerTeclado">
+      <sourceFolder url="file://$MODULE_DIR$/LeerTeclado" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/ProyectosMac.xcworkspace">
       <sourceFolder url="file://$MODULE_DIR$/ProyectosMac.xcworkspace" isTestSource="false" />
     </content>

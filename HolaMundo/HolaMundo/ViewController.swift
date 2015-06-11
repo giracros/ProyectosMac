@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+// Estas son propiedades que sirven como variables dentro de nuestro aplicativo
     @IBOutlet weak var lblMensaje: UILabel!
     @IBOutlet weak var btnAccion: UIButton!
 
@@ -23,8 +24,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // Palabra reservada para crear un metodo en swift es : func
+    // Este metodo funciona cuando se da click sobre el boton muestra el mensaje
+
     @IBAction func boton(sender: UIButton){
-        lblMensaje.text = ("Hola Mensaje Principal")
+        lblMensaje.text = "Hola Mensaje Principal"
     }
 }
 

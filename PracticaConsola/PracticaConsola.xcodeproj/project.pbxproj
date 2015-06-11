@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E221D5F1B1D5F4B006284AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E221D5E1B1D5F4B006284AC /* main.swift */; };
-		4E89F5921B2157DC0044EAF4 /* tcClase1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E89F5911B2157DC0044EAF4 /* tcClase1.swift */; };
+		4EDD78761B27D85C007489CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD78751B27D85C007489CA /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4E221D591B1D5F4B006284AC /* CopyFiles */ = {
+		4EDD78701B27D85C007489CA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,13 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4E221D5B1B1D5F4B006284AC /* Swift II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift II"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E221D5E1B1D5F4B006284AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		4E89F5911B2157DC0044EAF4 /* tcClase1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tcClase1.swift; path = ../tcClase1.swift; sourceTree = "<group>"; };
+		4EDD78721B27D85C007489CA /* PracticaConsola */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticaConsola; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDD78751B27D85C007489CA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4EDD787C1B27D871007489CA /* PracticaPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PracticaPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4E221D581B1D5F4B006284AC /* Frameworks */ = {
+		4EDD786F1B27D85C007489CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,96 +39,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E221D521B1D5F4B006284AC = {
+		4EDD78691B27D85C007489CA = {
 			isa = PBXGroup;
 			children = (
-				4E221D5D1B1D5F4B006284AC /* Swift II */,
-				4E221D5C1B1D5F4B006284AC /* Products */,
+				4EDD787C1B27D871007489CA /* PracticaPlayground.playground */,
+				4EDD78741B27D85C007489CA /* PracticaConsola */,
+				4EDD78731B27D85C007489CA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4E221D5C1B1D5F4B006284AC /* Products */ = {
+		4EDD78731B27D85C007489CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E221D5B1B1D5F4B006284AC /* Swift II */,
+				4EDD78721B27D85C007489CA /* PracticaConsola */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4E221D5D1B1D5F4B006284AC /* Swift II */ = {
+		4EDD78741B27D85C007489CA /* PracticaConsola */ = {
 			isa = PBXGroup;
 			children = (
-				4E89F5911B2157DC0044EAF4 /* tcClase1.swift */,
-				4E221D5E1B1D5F4B006284AC /* main.swift */,
+				4EDD78751B27D85C007489CA /* main.swift */,
 			);
-			path = "Swift II";
+			path = PracticaConsola;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4E221D5A1B1D5F4B006284AC /* Swift II */ = {
+		4EDD78711B27D85C007489CA /* PracticaConsola */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E221D621B1D5F4B006284AC /* Build configuration list for PBXNativeTarget "Swift II" */;
+			buildConfigurationList = 4EDD78791B27D85C007489CA /* Build configuration list for PBXNativeTarget "PracticaConsola" */;
 			buildPhases = (
-				4E221D571B1D5F4B006284AC /* Sources */,
-				4E221D581B1D5F4B006284AC /* Frameworks */,
-				4E221D591B1D5F4B006284AC /* CopyFiles */,
+				4EDD786E1B27D85C007489CA /* Sources */,
+				4EDD786F1B27D85C007489CA /* Frameworks */,
+				4EDD78701B27D85C007489CA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Swift II";
-			productName = "Swift II";
-			productReference = 4E221D5B1B1D5F4B006284AC /* Swift II */;
+			name = PracticaConsola;
+			productName = PracticaConsola;
+			productReference = 4EDD78721B27D85C007489CA /* PracticaConsola */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4E221D531B1D5F4B006284AC /* Project object */ = {
+		4EDD786A1B27D85C007489CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Daniel Fuentes";
 				TargetAttributes = {
-					4E221D5A1B1D5F4B006284AC = {
+					4EDD78711B27D85C007489CA = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
-			buildConfigurationList = 4E221D561B1D5F4B006284AC /* Build configuration list for PBXProject "Swift II" */;
+			buildConfigurationList = 4EDD786D1B27D85C007489CA /* Build configuration list for PBXProject "PracticaConsola" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4E221D521B1D5F4B006284AC;
-			productRefGroup = 4E221D5C1B1D5F4B006284AC /* Products */;
+			mainGroup = 4EDD78691B27D85C007489CA;
+			productRefGroup = 4EDD78731B27D85C007489CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4E221D5A1B1D5F4B006284AC /* Swift II */,
+				4EDD78711B27D85C007489CA /* PracticaConsola */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4E221D571B1D5F4B006284AC /* Sources */ = {
+		4EDD786E1B27D85C007489CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E221D5F1B1D5F4B006284AC /* main.swift in Sources */,
-				4E89F5921B2157DC0044EAF4 /* tcClase1.swift in Sources */,
+				4EDD78761B27D85C007489CA /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4E221D601B1D5F4B006284AC /* Debug */ = {
+		4EDD78771B27D85C007489CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -172,7 +170,7 @@
 			};
 			name = Debug;
 		};
-		4E221D611B1D5F4B006284AC /* Release */ = {
+		4EDD78781B27D85C007489CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,14 +205,14 @@
 			};
 			name = Release;
 		};
-		4E221D631B1D5F4B006284AC /* Debug */ = {
+		4EDD787A1B27D85C007489CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		4E221D641B1D5F4B006284AC /* Release */ = {
+		4EDD787B1B27D85C007489CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -224,25 +222,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E221D561B1D5F4B006284AC /* Build configuration list for PBXProject "Swift II" */ = {
+		4EDD786D1B27D85C007489CA /* Build configuration list for PBXProject "PracticaConsola" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E221D601B1D5F4B006284AC /* Debug */,
-				4E221D611B1D5F4B006284AC /* Release */,
+				4EDD78771B27D85C007489CA /* Debug */,
+				4EDD78781B27D85C007489CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E221D621B1D5F4B006284AC /* Build configuration list for PBXNativeTarget "Swift II" */ = {
+		4EDD78791B27D85C007489CA /* Build configuration list for PBXNativeTarget "PracticaConsola" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E221D631B1D5F4B006284AC /* Debug */,
-				4E221D641B1D5F4B006284AC /* Release */,
+				4EDD787A1B27D85C007489CA /* Debug */,
+				4EDD787B1B27D85C007489CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4E221D531B1D5F4B006284AC /* Project object */;
+	rootObject = 4EDD786A1B27D85C007489CA /* Project object */;
 }

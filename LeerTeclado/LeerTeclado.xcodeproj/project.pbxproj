@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E221D5F1B1D5F4B006284AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E221D5E1B1D5F4B006284AC /* main.swift */; };
-		4E89F5921B2157DC0044EAF4 /* tcClase1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E89F5911B2157DC0044EAF4 /* tcClase1.swift */; };
+		4E221DA31B1FFF03006284AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E221DA21B1FFF03006284AC /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4E221D591B1D5F4B006284AC /* CopyFiles */ = {
+		4E221D9D1B1FFF03006284AC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,13 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4E221D5B1B1D5F4B006284AC /* Swift II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift II"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E221D5E1B1D5F4B006284AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		4E89F5911B2157DC0044EAF4 /* tcClase1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tcClase1.swift; path = ../tcClase1.swift; sourceTree = "<group>"; };
+		4E221D9F1B1FFF03006284AC /* LeerTeclado */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeerTeclado; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E221DA21B1FFF03006284AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4E221D581B1D5F4B006284AC /* Frameworks */ = {
+		4E221D9C1B1FFF03006284AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,96 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E221D521B1D5F4B006284AC = {
+		4E221D961B1FFF03006284AC = {
 			isa = PBXGroup;
 			children = (
-				4E221D5D1B1D5F4B006284AC /* Swift II */,
-				4E221D5C1B1D5F4B006284AC /* Products */,
+				4E221DA11B1FFF03006284AC /* LeerTeclado */,
+				4E221DA01B1FFF03006284AC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4E221D5C1B1D5F4B006284AC /* Products */ = {
+		4E221DA01B1FFF03006284AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E221D5B1B1D5F4B006284AC /* Swift II */,
+				4E221D9F1B1FFF03006284AC /* LeerTeclado */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4E221D5D1B1D5F4B006284AC /* Swift II */ = {
+		4E221DA11B1FFF03006284AC /* LeerTeclado */ = {
 			isa = PBXGroup;
 			children = (
-				4E89F5911B2157DC0044EAF4 /* tcClase1.swift */,
-				4E221D5E1B1D5F4B006284AC /* main.swift */,
+				4E221DA21B1FFF03006284AC /* main.swift */,
 			);
-			path = "Swift II";
+			path = LeerTeclado;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4E221D5A1B1D5F4B006284AC /* Swift II */ = {
+		4E221D9E1B1FFF03006284AC /* LeerTeclado */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E221D621B1D5F4B006284AC /* Build configuration list for PBXNativeTarget "Swift II" */;
+			buildConfigurationList = 4E221DA61B1FFF03006284AC /* Build configuration list for PBXNativeTarget "LeerTeclado" */;
 			buildPhases = (
-				4E221D571B1D5F4B006284AC /* Sources */,
-				4E221D581B1D5F4B006284AC /* Frameworks */,
-				4E221D591B1D5F4B006284AC /* CopyFiles */,
+				4E221D9B1B1FFF03006284AC /* Sources */,
+				4E221D9C1B1FFF03006284AC /* Frameworks */,
+				4E221D9D1B1FFF03006284AC /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Swift II";
-			productName = "Swift II";
-			productReference = 4E221D5B1B1D5F4B006284AC /* Swift II */;
+			name = LeerTeclado;
+			productName = LeerTeclado;
+			productReference = 4E221D9F1B1FFF03006284AC /* LeerTeclado */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4E221D531B1D5F4B006284AC /* Project object */ = {
+		4E221D971B1FFF03006284AC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Daniel Fuentes";
 				TargetAttributes = {
-					4E221D5A1B1D5F4B006284AC = {
+					4E221D9E1B1FFF03006284AC = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
-			buildConfigurationList = 4E221D561B1D5F4B006284AC /* Build configuration list for PBXProject "Swift II" */;
+			buildConfigurationList = 4E221D9A1B1FFF03006284AC /* Build configuration list for PBXProject "LeerTeclado" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4E221D521B1D5F4B006284AC;
-			productRefGroup = 4E221D5C1B1D5F4B006284AC /* Products */;
+			mainGroup = 4E221D961B1FFF03006284AC;
+			productRefGroup = 4E221DA01B1FFF03006284AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4E221D5A1B1D5F4B006284AC /* Swift II */,
+				4E221D9E1B1FFF03006284AC /* LeerTeclado */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4E221D571B1D5F4B006284AC /* Sources */ = {
+		4E221D9B1B1FFF03006284AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E221D5F1B1D5F4B006284AC /* main.swift in Sources */,
-				4E89F5921B2157DC0044EAF4 /* tcClase1.swift in Sources */,
+				4E221DA31B1FFF03006284AC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4E221D601B1D5F4B006284AC /* Debug */ = {
+		4E221DA41B1FFF03006284AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -172,7 +168,7 @@
 			};
 			name = Debug;
 		};
-		4E221D611B1D5F4B006284AC /* Release */ = {
+		4E221DA51B1FFF03006284AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,14 +203,14 @@
 			};
 			name = Release;
 		};
-		4E221D631B1D5F4B006284AC /* Debug */ = {
+		4E221DA71B1FFF03006284AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		4E221D641B1D5F4B006284AC /* Release */ = {
+		4E221DA81B1FFF03006284AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -224,25 +220,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E221D561B1D5F4B006284AC /* Build configuration list for PBXProject "Swift II" */ = {
+		4E221D9A1B1FFF03006284AC /* Build configuration list for PBXProject "LeerTeclado" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E221D601B1D5F4B006284AC /* Debug */,
-				4E221D611B1D5F4B006284AC /* Release */,
+				4E221DA41B1FFF03006284AC /* Debug */,
+				4E221DA51B1FFF03006284AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E221D621B1D5F4B006284AC /* Build configuration list for PBXNativeTarget "Swift II" */ = {
+		4E221DA61B1FFF03006284AC /* Build configuration list for PBXNativeTarget "LeerTeclado" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E221D631B1D5F4B006284AC /* Debug */,
-				4E221D641B1D5F4B006284AC /* Release */,
+				4E221DA71B1FFF03006284AC /* Debug */,
+				4E221DA81B1FFF03006284AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4E221D531B1D5F4B006284AC /* Project object */;
+	rootObject = 4E221D971B1FFF03006284AC /* Project object */;
 }

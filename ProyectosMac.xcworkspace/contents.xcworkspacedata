@@ -8,6 +8,9 @@
    <Group
       location = "container:"
       name = "Ejemplos">
+      <FileRef
+         location = "group:FoodTracker/FoodTracker.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "container:"

@@ -40,7 +40,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVX-cz-A4H">
-                                <rect key="frame" x="16" y="100.5" width="159" height="28.5"/>
+                                <rect key="frame" x="221" y="551" width="159" height="28.5"/>
                                 <state key="normal" title="Set Default Label Text">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>

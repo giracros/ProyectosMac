@@ -11,6 +11,9 @@
       <FileRef
          location = "group:FoodTracker/FoodTracker.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:CookEnvigado/CookEnvigado.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "container:"

@@ -9,9 +9,6 @@
       location = "container:"
       name = "Ejemplos">
       <FileRef
-         location = "group:FoodTracker/FoodTracker.xcodeproj">
-      </FileRef>
-      <FileRef
          location = "group:CookEnvigado/CookEnvigado.xcodeproj">
       </FileRef>
    </Group>
@@ -30,9 +27,6 @@
       </FileRef>
       <FileRef
          location = "group:Swift I/Swift I.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:HolaMundo/HolaMundo.xcodeproj">
       </FileRef>
       <FileRef
          location = "group:LeerTeclado/LeerTeclado.xcodeproj">

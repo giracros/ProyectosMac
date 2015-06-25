@@ -4,6 +4,736 @@
    <Group
       location = "container:"
       name = "Proyecto">
+      <Group
+         location = "group:DevMateKit"
+         name = "DevMateKit">
+         <FileRef
+            location = "group:com.devmate.UpdateInstaller.xpc">
+         </FileRef>
+         <Group
+            location = "group:DevMateKit.framework"
+            name = "DevMateKit.framework">
+            <FileRef
+               location = "group:DevMateKit">
+            </FileRef>
+            <FileRef
+               location = "group:Frameworks">
+            </FileRef>
+            <FileRef
+               location = "group:Headers">
+            </FileRef>
+            <FileRef
+               location = "group:Resources">
+            </FileRef>
+            <Group
+               location = "group:Versions"
+               name = "Versions">
+               <Group
+                  location = "group:A"
+                  name = "A">
+                  <Group
+                     location = "group:_CodeSignature"
+                     name = "_CodeSignature">
+                     <FileRef
+                        location = "group:CodeResources">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:DevMateKit">
+                  </FileRef>
+                  <Group
+                     location = "group:Frameworks"
+                     name = "Frameworks">
+                     <Group
+                        location = "group:DevMateIssuesReporter.framework"
+                        name = "DevMateIssuesReporter.framework">
+                        <FileRef
+                           location = "group:DevMateIssuesReporter">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Resources">
+                        </FileRef>
+                        <Group
+                           location = "group:Versions"
+                           name = "Versions">
+                           <Group
+                              location = "group:A"
+                              name = "A">
+                              <Group
+                                 location = "group:_CodeSignature"
+                                 name = "_CodeSignature">
+                                 <FileRef
+                                    location = "group:CodeResources">
+                                 </FileRef>
+                              </Group>
+                              <FileRef
+                                 location = "group:DevMateIssuesReporter">
+                              </FileRef>
+                              <Group
+                                 location = "group:Frameworks"
+                                 name = "Frameworks">
+                                 <Group
+                                    location = "group:CrashReporter.framework"
+                                    name = "CrashReporter.framework">
+                                    <FileRef
+                                       location = "group:CrashReporter">
+                                    </FileRef>
+                                    <FileRef
+                                       location = "group:Resources">
+                                    </FileRef>
+                                    <Group
+                                       location = "group:Versions"
+                                       name = "Versions">
+                                       <Group
+                                          location = "group:A"
+                                          name = "A">
+                                          <Group
+                                             location = "group:_CodeSignature"
+                                             name = "_CodeSignature">
+                                             <FileRef
+                                                location = "group:CodeResources">
+                                             </FileRef>
+                                          </Group>
+                                          <FileRef
+                                             location = "group:CrashReporter">
+                                          </FileRef>
+                                          <Group
+                                             location = "group:Resources"
+                                             name = "Resources">
+                                             <FileRef
+                                                location = "group:Info.plist">
+                                             </FileRef>
+                                          </Group>
+                                       </Group>
+                                       <FileRef
+                                          location = "group:Current">
+                                       </FileRef>
+                                    </Group>
+                                 </Group>
+                              </Group>
+                              <Group
+                                 location = "group:Resources"
+                                 name = "Resources">
+                                 <Group
+                                    location = "group:de.lproj"
+                                    name = "de.lproj">
+                                    <FileRef
+                                       location = "group:Reports.strings">
+                                    </FileRef>
+                                 </Group>
+                                 <FileRef
+                                    location = "group:DevMateInfoPopoverView.nib">
+                                 </FileRef>
+                                 <FileRef
+                                    location = "group:DevMateIssuesWindow.nib">
+                                 </FileRef>
+                                 <FileRef
+                                    location = "group:DMAttachment.tiff">
+                                 </FileRef>
+                                 <FileRef
+                                    location = "group:DMInfoButton.tiff">
+                                 </FileRef>
+                                 <Group
+                                    location = "group:en.lproj"
+                                    name = "en.lproj">
+                                    <FileRef
+                                       location = "group:Reports.strings">
+                                    </FileRef>
+                                 </Group>
+                                 <Group
+                                    location = "group:es.lproj"
+                                    name = "es.lproj">
+                                    <FileRef
+                                       location = "group:Reports.strings">
+                                    </FileRef>
+                                 </Group>
+                                 <Group
+                                    location = "group:fr.lproj"
+                                    name = "fr.lproj">
+                                    <FileRef
+                                       location = "group:Reports.strings">
+                                    </FileRef>
+                                 </Group>
+                                 <FileRef
+                                    location = "group:Info.plist">
+                                 </FileRef>
+                                 <Group
+                                    location = "group:it.lproj"
+                                    name = "it.lproj">
+                                    <FileRef
+                                       location = "group:Reports.strings">
+                                    </FileRef>
+                                 </Group>
+                                 <Group
+                                    location = "group:ja.lproj"
+                                    name = "ja.lproj">
+                                    <FileRef
+                                       location = "group:Reports.strings">
+                                    </FileRef>
+                                 </Group>
+                                 <Group
+                                    location = "group:nl.lproj"
+                                    name = "nl.lproj">
+                                    <FileRef
+                                       location = "group:Reports.strings">
+                                    </FileRef>
+                                 </Group>
+                                 <Group
+                                    location = "group:pl.lproj"
+                                    name = "pl.lproj">
+                                    <FileRef
+                                       location = "group:Reports.strings">
+                                    </FileRef>
+                                 </Group>
+                                 <Group
+                                    location = "group:pt-BR.lproj"
+                                    name = "pt-BR.lproj">
+                                    <FileRef
+                                       location = "group:Reports.strings">
+                                    </FileRef>
+                                 </Group>
+                                 <FileRef
+                                    location = "group:pt.lproj">
+                                 </FileRef>
+                                 <Group
+                                    location = "group:ru.lproj"
+                                    name = "ru.lproj">
+                                    <FileRef
+                                       location = "group:Reports.strings">
+                                    </FileRef>
+                                 </Group>
+                                 <Group
+                                    location = "group:uk.lproj"
+                                    name = "uk.lproj">
+                                    <FileRef
+                                       location = "group:Reports.strings">
+                                    </FileRef>
+                                 </Group>
+                                 <Group
+                                    location = "group:zh-Hans.lproj"
+                                    name = "zh-Hans.lproj">
+                                    <FileRef
+                                       location = "group:Reports.strings">
+                                    </FileRef>
+                                 </Group>
+                              </Group>
+                           </Group>
+                           <FileRef
+                              location = "group:Current">
+                           </FileRef>
+                        </Group>
+                     </Group>
+                  </Group>
+                  <Group
+                     location = "group:Headers"
+                     name = "Headers">
+                     <FileRef
+                        location = "group:DevMateActivations.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DevMateFeedback.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DevMateInlines.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DevMateIssues.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DevMateKit.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DevMateSparkle.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DevMateTracking.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMActivationController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMActivationStepController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMActivator.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMAdditionalActivationStepController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMDeactivationStepController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMDefines.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMEmbeddedStoreStepController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMExpirationStepController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMFailureStepController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMFeedbackController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMFeedbackReportWindowController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMFsprgEmbeddedStoreProtocols.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMIssueReportWindowController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMIssuesController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMIssuesWindowController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMRatingView.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMStepController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMSuccessStepController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMTrackingBase.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMTrackingReporter.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMTrial.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMTrialManualExpiredStepController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMTrialManualReminderStepController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMTrialTimeExpiredStepController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMTrialTimeReminderStepController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMTrialWelcomeStepController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMWelcomeStepController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SUAppcast.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SUAppcastItem.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SUUpdater.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SUUpdaterQueue.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SUVersionComparisonProtocol.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SUVersionDisplayProtocol.h">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Resources"
+                     name = "Resources">
+                     <Group
+                        location = "group:de.lproj"
+                        name = "de.lproj">
+                        <FileRef
+                           location = "group:Activations.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Reports.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Sparkle.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUAutomaticUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdatePermissionPrompt.nib">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:DevMateFeedbackWindow.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DevMateInfoPopoverView.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMActivationStepView.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMActivationWindow.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMAdditionalActivationStepView.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMAttachment.tiff">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMDeactivationStepView.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMEmbeddedStoreStepView.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMExpirationStepView.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMFailureStepView.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMInfoButton.tiff">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMLinkArrowActive.tiff">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMLinkArrowInactive.tiff">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMLockClosed.tiff">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMProgressBarBackground.tiff">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMProgressBarInvalid.tiff">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMProgressBarValid.tiff">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMStarRatingActive.tiff">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMStarRatingNormal.tiff">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMSuccessStepView.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMTrialManualExpiredStepView.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMTrialManualReminderStepView.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMTrialTimeExpiredStepView.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMTrialTimeReminderStepView.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMTrialWelcomeStepView.nib">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DMWelcomeStepView.nib">
+                     </FileRef>
+                     <Group
+                        location = "group:en.lproj"
+                        name = "en.lproj">
+                        <FileRef
+                           location = "group:Activations.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Reports.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Sparkle.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUAutomaticUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUPasswordPrompt.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdatePermissionPrompt.nib">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:es.lproj"
+                        name = "es.lproj">
+                        <FileRef
+                           location = "group:Activations.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Reports.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Sparkle.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUAutomaticUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdatePermissionPrompt.nib">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:finish_installation.app">
+                     </FileRef>
+                     <Group
+                        location = "group:fr.lproj"
+                        name = "fr.lproj">
+                        <FileRef
+                           location = "group:Activations.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Reports.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Sparkle.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUAutomaticUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdatePermissionPrompt.nib">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:Info.plist">
+                     </FileRef>
+                     <Group
+                        location = "group:it.lproj"
+                        name = "it.lproj">
+                        <FileRef
+                           location = "group:Activations.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Reports.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Sparkle.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUAutomaticUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdatePermissionPrompt.nib">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:ja.lproj"
+                        name = "ja.lproj">
+                        <FileRef
+                           location = "group:Activations.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Reports.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Sparkle.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUAutomaticUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdatePermissionPrompt.nib">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:nl.lproj"
+                        name = "nl.lproj">
+                        <FileRef
+                           location = "group:Activations.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Reports.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Sparkle.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUAutomaticUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdatePermissionPrompt.nib">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:NOTICE">
+                     </FileRef>
+                     <Group
+                        location = "group:pl.lproj"
+                        name = "pl.lproj">
+                        <FileRef
+                           location = "group:Activations.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Reports.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Sparkle.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUAutomaticUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdatePermissionPrompt.nib">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:Problem Reporter Sandboxed.app">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Problem Reporter.app">
+                     </FileRef>
+                     <Group
+                        location = "group:pt-BR.lproj"
+                        name = "pt-BR.lproj">
+                        <FileRef
+                           location = "group:Activations.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Reports.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Sparkle.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUAutomaticUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUPasswordPrompt.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdatePermissionPrompt.nib">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:pt.lproj">
+                     </FileRef>
+                     <Group
+                        location = "group:ru.lproj"
+                        name = "ru.lproj">
+                        <FileRef
+                           location = "group:Activations.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Reports.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Sparkle.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUAutomaticUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdatePermissionPrompt.nib">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:SUModelTranslation.plist">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SUStatus.nib">
+                     </FileRef>
+                     <Group
+                        location = "group:uk.lproj"
+                        name = "uk.lproj">
+                        <FileRef
+                           location = "group:Activations.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Reports.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Sparkle.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUAutomaticUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdatePermissionPrompt.nib">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:zh-Hans.lproj"
+                        name = "zh-Hans.lproj">
+                        <FileRef
+                           location = "group:Activations.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Reports.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:Sparkle.strings">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUAutomaticUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdateAlert.nib">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SUUpdatePermissionPrompt.nib">
+                        </FileRef>
+                     </Group>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:Current">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:MotelApp/MotelApp.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "container:"

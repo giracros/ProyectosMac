@@ -748,6 +748,9 @@
       <FileRef
          location = "group:PracticaConsola/PracticaConsola.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:cocoaPods/cocoaPods.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "container:"

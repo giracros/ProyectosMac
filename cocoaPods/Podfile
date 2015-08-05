@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'cocoaPods' do
+  pod 'AFNetworking'
+  pod 'ORStackView'
+  pod 'SwiftyJSON'
+  pod 'Mixpanel'
+end
+

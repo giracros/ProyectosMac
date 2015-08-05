@@ -4,11 +4,20 @@
     <content url="file://$MODULE_DIR$/.idea">
       <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
     </content>
-    <content url="file://$MODULE_DIR$/HolaMundo">
-      <sourceFolder url="file://$MODULE_DIR$/HolaMundo" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/CookEnvigado">
+      <sourceFolder url="file://$MODULE_DIR$/CookEnvigado" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/DevMateKit">
+      <sourceFolder url="file://$MODULE_DIR$/DevMateKit" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/LeerTeclado">
       <sourceFolder url="file://$MODULE_DIR$/LeerTeclado" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/MotelApp">
+      <sourceFolder url="file://$MODULE_DIR$/MotelApp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/PracticaConsola">
+      <sourceFolder url="file://$MODULE_DIR$/PracticaConsola" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/ProyectosMac.xcworkspace">
       <sourceFolder url="file://$MODULE_DIR$/ProyectosMac.xcworkspace" isTestSource="false" />
@@ -18,6 +27,9 @@
     </content>
     <content url="file://$MODULE_DIR$/Swift II">
       <sourceFolder url="file://$MODULE_DIR$/Swift II" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/cocoaPods">
+      <sourceFolder url="file://$MODULE_DIR$/cocoaPods" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

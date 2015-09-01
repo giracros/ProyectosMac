@@ -741,6 +741,9 @@
       <FileRef
          location = "group:CookEnvigado/CookEnvigado.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:AnimeFL/AnimeFL.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "container:"
